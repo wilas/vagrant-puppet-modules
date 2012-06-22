@@ -1,0 +1,3 @@
+Learning vagrant and puppet:
+ - vagrant-flat version with modules
+ - path to file: puppet:///modules/...
