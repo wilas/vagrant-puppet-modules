@@ -1,4 +1,4 @@
-Modular version [vagrant-puppet-flat](https://github.com/wilas/vagrant-puppet-flat)
+## Modular version [vagrant-puppet-flat](https://github.com/wilas/vagrant-puppet-flat)
 
 
 ## Copyright and license
