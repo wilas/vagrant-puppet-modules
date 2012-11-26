@@ -1,5 +1,14 @@
 ## Modular version [vagrant-puppet-flat](https://github.com/wilas/vagrant-puppet-flat)
 
+## VM description
+ 
+ - OS: Scientific linux 6
+ - simple vm: farmhouse_modules.farm
+
+## Bibliography
+
+ - puppet modules: http://docs.puppetlabs.com/puppet/2.7/reference/modules_fundamentals.html
+ - other puppet links: https://github.com/wilas/vagrant-puppet-flat
 
 ## Copyright and license
 
