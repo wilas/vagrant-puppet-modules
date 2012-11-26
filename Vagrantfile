@@ -8,8 +8,6 @@ Vagrant::Config.run do |config|
   config.vm.host_name = "#{vm_name}.farm"
   config.vm.customize ["modifyvm", :id, "--memory", "1024", "--name", "#{vm_name}"]
 
-  #bridge + static IP or puppet set ip ?
-
   # Share an additional folder to the guest VM. The first argument is
   # an identifier, the second is the path on the guest to mount the
   # folder, and the third is the path on the host to the actual folder.
@@ -20,6 +18,5 @@ Vagrant::Config.run do |config|
      puppet.manifests_path = "manifests"
      puppet.manifest_file  = "site.pp"
      puppet.module_path = "modules"
-     # puppet.options = ["--fileserverconfig=/vagrant/fileserver.conf", ]
   end
 end
