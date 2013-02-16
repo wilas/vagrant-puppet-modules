@@ -7,7 +7,7 @@
 
 ## Bibliography
 
- - puppet modules: http://docs.puppetlabs.com/puppet/2.7/reference/modules_fundamentals.html
+ - puppet modules: http://docs.puppetlabs.com/puppet/3/reference/modules_fundamentals.html
  - other puppet links: https://github.com/wilas/vagrant-puppet-flat
 
 ## Copyright and license
