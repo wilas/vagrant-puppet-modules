@@ -5,6 +5,19 @@
  - OS: Scientific linux 6
  - simple vm: farmhouse_modules.farm
 
+## Howto
+
+ - create SL64_box using [veewee-SL6-box](https://github.com/wilas/veewee-vagrant-SL6-x86_64)
+ - copy ssh_keys from [ssh-gerwazy](https://github.com/wilas/ssh-gerwazy)
+
+```
+    vagrant up
+    ssh root@localhost -p 2222
+    ssh emu@localhost -p 2222
+    ssh elk@localhost -p 2222
+    vagrant destroy
+```
+
 ## Bibliography
 
  - puppet modules: http://docs.puppetlabs.com/puppet/3/reference/modules_fundamentals.html

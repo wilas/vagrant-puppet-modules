@@ -15,6 +15,7 @@ Vagrant::Config.run do |config|
   config.vm.share_folder "v-root", "/vagrant", "."
 
   config.vm.provision :puppet do |puppet|
+     puppet.options = "--hiera_config hiera.yaml"
      puppet.manifests_path = "manifests"
      puppet.manifest_file  = "site.pp"
      puppet.module_path = "modules"

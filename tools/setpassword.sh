@@ -9,6 +9,6 @@ fi
 
 username=$1
 #here you can use password generator, send password via email, etc.
-password="simple"
+password="password"
 #echo $password
 echo $password | passwd --stdin $username

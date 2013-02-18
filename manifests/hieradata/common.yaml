@@ -1,0 +1,7 @@
+---
+earth_ssh_users :   - 'elk'
+                    - 'yak'
+                    - 'emu'
+earth_plain_users :  -
+air_ssh_users :     - 'emu'
+air_plain_users :    - 'puffin'
