@@ -1,5 +1,4 @@
 ---
-hiera_info : 'Hello Hiera'
 basic_package : - 'wget'
                 - 'openssh-clients'
                 - 'mc'

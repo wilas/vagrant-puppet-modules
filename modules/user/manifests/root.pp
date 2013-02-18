@@ -16,5 +16,5 @@ class user::root {
         user   => "root",
     }
 
-    root_attune { [ "/root/.vimrc", "/root/.bashrc", "/root/.vim" ]: }
+    root_attune { [ "/root/.vimrc", "/root/.bashrc", "/root/.vim", "/root/.tmux.conf", ]: }
 }

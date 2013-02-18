@@ -55,15 +55,15 @@ class user {
     define ssh_user ($uid, $key, $ensure = "present", $attune = false, $meta_attune="user"){
 
         plain_user { $name:
-            uid => $uid,
-            ensure => $ensure,
-            attune => $attune,
+            uid         => $uid,
+            ensure      => $ensure,
+            attune      => $attune,
             meta_attune => $meta_attune,
         }
         
         if $ensure == "present" {
             ssh_authorized_key { "${name}_key":
-                key => $key,
+                key  => $key,
                 type => "ssh-rsa",
                 user => $name,
             }

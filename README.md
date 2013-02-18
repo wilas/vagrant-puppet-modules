@@ -3,7 +3,7 @@
 ## VM description
  
  - OS: Scientific linux 6
- - simple vm: farmhouse_modules.farm
+ - simple vm: pie.farm
 
 ## Howto
 
