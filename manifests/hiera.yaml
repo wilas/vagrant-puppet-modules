@@ -2,6 +2,7 @@
 :hierarchy:
     - %{::osfamily}-pkgs
     - %{::osfamily}-repos
+    - users
     - common
 :backends:
     - yaml

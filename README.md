@@ -7,7 +7,7 @@
 
 ## Howto
 
- - create SL64_box using [veewee-boxarium](https://github.com/wilas/veewee-boxarium)
+ - create SL6 box using [veewee-boxarium](https://github.com/wilas/veewee-boxarium)
  - copy ssh_keys from [ssh-gerwazy](https://github.com/wilas/ssh-gerwazy)
 
 ```
@@ -22,6 +22,8 @@
 
  - puppet modules: http://docs.puppetlabs.com/puppet/3/reference/modules_fundamentals.html
  - other puppet links: https://github.com/wilas/vagrant-puppet-flat
+ - puppet hiera (e.g. include classes in hiera): https://github.com/wilas/vagrant-puppet-hiera
+
 
 ## Copyright and license
 
