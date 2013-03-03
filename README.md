@@ -18,6 +18,13 @@
     vagrant destroy
 ```
 
+## Good practice:
+ - puppet parser validate manifest.pp
+ - puppet-lint manifest.pp
+ - stdlib
+ - puppet-concat
+ - puppet-librarian
+
 ## Bibliography
 
  - puppet modules: http://docs.puppetlabs.com/puppet/3/reference/modules_fundamentals.html
