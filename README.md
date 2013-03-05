@@ -1,4 +1,6 @@
-## Modular version [vagrant-puppet-flat](https://github.com/wilas/vagrant-puppet-flat)
+# Description
+
+Playing with moodules in Puppet. Single file version: [vagrant-puppet-flat](https://github.com/wilas/vagrant-puppet-flat)
 
 ## VM description
  
@@ -18,7 +20,7 @@
     vagrant destroy
 ```
 
-## Good practice:
+## Worth using:
  - puppet parser validate manifest.pp
  - puppet-lint manifest.pp
  - stdlib
@@ -30,11 +32,12 @@
  - puppet modules: http://docs.puppetlabs.com/puppet/3/reference/modules_fundamentals.html
  - other puppet links: https://github.com/wilas/vagrant-puppet-flat
  - puppet hiera (e.g. include classes in hiera): https://github.com/wilas/vagrant-puppet-hiera
+ - vagrant + puppet_server: https://github.com/wilas/puppet-soup
 
 
 ## Copyright and license
 
-Copyright 2012, Kamil Wilas (wilas.pl)
+Copyright 2012-2013, Kamil Wilas (wilas.pl)
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this work except in compliance with the License.
